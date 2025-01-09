@@ -1,3 +1,24 @@
+/* body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+} */
+/* **********************for Hello.js & Hello.jsx********************* */
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +56,472 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* *********************************Navbar************************* */
+
+/* body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.navlinks{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.logo {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+  /* *****************************Basics***************************** */
+/* body{
+  margin: 10px;
+  padding: 10px;
+}
+h1{
+  font-size: 40px;
+  color: red;
+  font-family:Arial, Helvetica, sans-serif;
+}
+p{
+  font-size: 25px;
+  color: blue;
+}
+table,th,td{
+  border: 2px solid black;
+  font-size: 25px;
+  border-collapse: collapse;
+}
+tr{
+  color:rgb(255, 140, 0);
+}
+td{
+  color: rgb(199, 33, 199);
+  text-align: left;
+}
+i{
+  font-size: 20px;
+  color: green;
+} */
+  
+/* *******************************Card******************************* */
+
+ /* body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.card {
+  box-shadow: 0 0 10px red;
+  width: 250px;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.card p {
+  margin: 5px 0;
+}
+.details{
+  box-shadow: 0 0 12px blue ;
+  width: 300px;
+  padding:12px;
+  border-radius: 20px;
+  margin: 30px;
+  font-size: 25px;
+  color:crimson;
+  background-color:aliceblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+/* ***********************increment********************** */
+
+/* body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+*{
+  box-sizing: border-box;
+}
+.card {
+  box-shadow: 0 0 12px black ;
+  width: 200px;
+  padding:10px;
+  border-radius: 20px;
+  margin-top: 220px;
+  font-size: 25px;
+  background-color:aliceblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card p{
+  margin: 5px 0;
+  text-align: center;
+  color:crimson;
+}
+.card button{
+  margin: 20px 0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: green;
+  border: 2px solid gray;
+} */
+
+/* ***********************Propscard*************************** */
+
+/* body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.card2 {
+  box-shadow: 0 0 12px blue ;
+  width: 300px;
+  padding:12px;
+  border-radius: 20px;
+  margin: 30px;
+  font-size: 25px;
+  color:crimson;
+  background-color:aliceblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+/* *********************Form*************************** */
+
+/* body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.card {
+  box-shadow: 0 0 10px red;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-top: 220px;
+}
+.card p {
+  margin: 5px 0;
+}
+button{
+  margin-top: 10px;
+  font-size: 20px;
+  margin-left: 10px;
+} */
+
+/* *************************Form Handler************************ */
+
+/* 
+body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border :2px solid rgb(132, 130, 130);
+  padding: 20px;
+  border-radius: 20px;
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 550px;
+  font-size: 20px;
+  color: red;
+  background-color: rgb(193, 250, 231);
+}
+button{
+  font-size: 20px;
+  width: 80px;
+  margin-left: 160px;
+  border: 2px solid black;
+}
+input{
+  border: 2px solid blue;
+  font-size: 20px;
+}
+  */
+
+  /* ******************************Window********************* */
+
+/* body{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+.window {
+  box-shadow: 0 0 5px white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 35px;
+  border: 2px solid black;
+  margin: 250px;
+}
+.window button {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0;
+} */
+
+/* **********************************navBar************************** */
+
+/* .navBar {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: aqua;
+  color: black;
+}
+.navBar a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+} */
+
+/* ************************CRUDTask*********************** */
+
+/* body{
+  background-color: lightpink;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  font-size: 20px;
+}
+*{
+  box-sizing: border-box;
+}
+label{
+  margin-right: 5px;
+}
+button{
+  margin-right: 5px;
+}
+table{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: blue;
+} */
+
+/* ************************CURD AXIOS******************** */
+
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+} */
+
+/* ***************************IsLoader************************* */
+
+/* .loader{
+  width: 30px;
+  height: 30px;
+  border: 3px solid gray;
+  border-right: 3px solid rgb(76, 181, 181);
+  border-radius: 50%;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* ***************************Modal********************* */
+/* .modalClass{
+  height: 200px;
+  background-color: grey;
+  overflow: hidden;
+}
+.modalContainer {
+  position: absolute;
+  top: 0;
+  background-color: #99999986;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalCard {
+  position: relative;
+  background-color: #fff;
+  height: 200px;
+  width: 300px;
+}
+.closeBtn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 20px;
+  width: 20px;
+  color: red;
+  display: flex;
+  cursor: pointer;
+  border: 2px solid gray;
+  text-align: center;
+} */
+
+/* *****************ReactProject******************* */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+.navlinks{
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+.nav-links{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+.nav-links:hover{
+  color: red;
+}
+.loginsite{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 205, 247);
+  height: 100vh;
+}
+.logincard{
+  background-color: lightpink;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.logincard p {
+  margin: 0;
+}
+.logindetails{
+  margin: 10px 0;
+}
+.logout{
+  border: 2px solid white;
+  color: white;
+  background-color: purple;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.todolist{
+  text-align: center;
+}
+li{
+  font-size: 20px;
+  list-style-type: none;
+}
+.container{
+  border: 2px solid red;
+  margin-top: 30px;
+  margin-left: 550px;
+  width: 380px
+}
+.btn{
+  display: flex;
+  gap: 5px;
+  height: 60px;
+  box-sizing:content-box;
+  margin-bottom: 20px;
+}
+.btn{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+input{
+  width:360px;
+  height:50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  border: 2px solid black;
 }

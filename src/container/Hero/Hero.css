@@ -1,0 +1,18 @@
+.herosection {
+    height: 100vh;
+    background-color: lightpink;
+    font-size: 35px;
+    color: white;
+}
+h1{
+    color:rgb(215, 5, 5);
+    font-size: 50px;
+    margin-left: 650px;
+    margin-top: -300px;
+}
+p {
+    color: black;
+    font-size: 28px;
+    margin-left: 600px;
+    margin-right: 60px;
+}
