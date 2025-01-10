@@ -504,7 +504,7 @@ li{
   border: 2px solid red;
   margin-top: 30px;
   margin-left: 550px;
-  width: 380px
+  width: 380px;
 }
 .btn{
   display: flex;
@@ -525,3 +525,4 @@ input{
   font-size: 25px;
   border: 2px solid black;
 }
+
